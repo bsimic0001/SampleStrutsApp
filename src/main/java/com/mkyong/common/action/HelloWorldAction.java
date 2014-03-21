@@ -13,7 +13,7 @@ import com.mkyong.common.form.HelloWorldForm;
 public class HelloWorldAction extends Action{
 	
 	public ActionForward execute(ActionMapping mapping,ActionForm form,
-			HttpServletRequest request,HttpServletResponse response) throws Exception {
+	HttpServletRequest request,HttpServletResponse response) throws Exception {
 		
 		HelloWorldForm helloWorldForm = (HelloWorldForm) form;
 		helloWorldForm.setMessage("Hello World! Struts");
